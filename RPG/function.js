@@ -19,8 +19,9 @@ const monsterHealthText = document.querySelector("#monsterHealth");
 const weapons = [
     { name: 'stick', power: 5 },
     { name: 'dagger', power: 30 },
-    { name: 'claw hammer', power: 50 },
+    { name: 'axe', power: 50 },
     { name: 'sword', power: 100 }
+
 ];
 const monsters = [
     {
@@ -68,7 +69,7 @@ const locations = [
         name: "kill monster",
         "button text": ["Go to town square", "Go to town square", "Go to town square"],
         "button functions": [goTown, goTown, easterEgg],
-        text: 'The monster screams "Arg!" as it dies. You gain experience points and find gold.'
+        text: 'The monster cries out "Arg!" as it turns to dust. You gain experience points and find gold.'
     },
     {
         name: "lose",
